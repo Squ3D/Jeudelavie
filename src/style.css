@@ -1,0 +1,48 @@
+
+/*.label {
+    -fx-font-size: 20pt;
+    -fx-font-family: "TrajanPro"; 
+    -fx-text-fill: blue;
+    -fx-opacity: 1;
+}
+*/
+
+
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Arial";
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#xo {
+	-fx-background-color: lightblue;
+	-fx-alignment: center;
+	-fx-font: 30px Verdana;
+	
+	}
+#grid {
+	-fx-alignement : center;
+	-fx-height : 700px;
+	
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+    -fx-border-color: blue;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-text-fill: #1d1d1d;
+  -fx-border-color: green;
+}
+
+.vb4 { 
+	-fx-background-color: #808080;
+}
+
